@@ -1,6 +1,6 @@
 const indeOf = (arr,val) => {
     for(let i in arr){
-        if(arr[i]===val) return i
+        if(arr[i]===val) return i;
     }
-    return -1
+    return -1;
 }
